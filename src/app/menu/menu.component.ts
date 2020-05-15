@@ -18,10 +18,8 @@ export class MenuComponent implements OnInit {
     
   constructor(private dishService: DishService) { }
 
-  ngOnInit() {
     ngOnInit() {
       this.dishes = this.dishService.getDishes();
     }
-  }
 
 }
